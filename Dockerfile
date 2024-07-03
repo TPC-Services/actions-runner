@@ -6,5 +6,8 @@ RUN apt-get update && \
     apt-get install -y buildah && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/*
- 
+
+ENV BUILDAH_ISOLATION=chroot
+ENV BUILDAH_LAYERS=true
+
 USER runner
