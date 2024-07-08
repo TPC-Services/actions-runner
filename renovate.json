@@ -14,7 +14,7 @@
       "automerge": false
     }
   ],
-  "requiredStatusChecks": ["ci/github-actions"],
+  "requiredStatusChecks": ["build"],
   "labels": ["dependencies"],
   "prCreation": "not-pending"
 }
