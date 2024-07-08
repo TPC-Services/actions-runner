@@ -14,7 +14,7 @@
       "automerge": false
     }
   ],
-  "requiredStatusChecks": ["ci/travis"],
+  "requiredStatusChecks": ["ci/github-actions"],
   "labels": ["dependencies"],
   "prCreation": "not-pending"
 }
